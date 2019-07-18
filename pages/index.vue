@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <h1>This a test</h1>
+    <h1>این یک تست است</h1>
   </div>
 </template>
 

@@ -38,7 +38,11 @@ module.exports = {
   /*
    ** Global CSS
    */
-  css: [],
+  css: [
+    'assets/scss/reset.scss',
+    'assets/scss/fonts.scss',
+    'assets/scss/global.scss'
+  ],
   /*
    ** Plugins to load before mounting the App
    */
@@ -55,6 +59,7 @@ module.exports = {
     '@nuxtjs/axios',
     '@nuxtjs/pwa',
     '@nuxtjs/eslint-module',
+    '@nuxtjs/style-resources',
     [
       '@nuxtjs/router',
       {
@@ -65,12 +70,7 @@ module.exports = {
     ]
   ],
   styleResources: {
-    scss: [
-      'assets/scss/fonts.scss',
-      'assets/scss/reset.scss',
-      'assets/scss/variables.scss',
-      'assets/scss/global.scss'
-    ]
+    scss: ['assets/scss/variables.scss']
   },
   /*
    ** Axios module configuration
