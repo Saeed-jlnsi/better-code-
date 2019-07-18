@@ -1,16 +1,14 @@
 <template>
-  <div class="container"></div>
+  <div class="container">
+    <h1>This a test</h1>
+  </div>
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
-
 export default {
-  components: {
-    Logo
-  }
+  name: 'Home',
+  components: {}
 }
 </script>
 
-<style lang="scss">
-</style>
+<style lang="scss"></style>
