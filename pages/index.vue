@@ -1,7 +1,5 @@
 <template>
-  <div class="container">
-    <h1>این یک تست است</h1>
-  </div>
+  <div class="container"></div>
 </template>
 
 <script>
